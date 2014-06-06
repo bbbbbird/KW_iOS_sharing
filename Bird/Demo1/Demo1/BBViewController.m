@@ -7,7 +7,7 @@
 //
 
 #import "BBViewController.h"
-
+#import "SimpleObject.h"
 @interface BBViewController ()
 
 @end
@@ -17,13 +17,30 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	NSLog(@"ViewDidLoad");
+}
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    NSLog(@"viewWillAppear");
+}
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    NSLog(@"viewDidAppear");
+}
+- (void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    NSLog(@"viewWillDisappear");
+}
+- (void)viewDidDisappear:(BOOL)animated{
+    [super viewDidDisappear:animated];
+    NSLog(@"viewDidDisappear");
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - X + Y
+- (IBAction)X_Y_Method:(id)sender {
+    SimpleObject *simpleObject = [SimpleObject new];
+    int answer = [simpleObject getSumX:10 andY:30];
+    NSLog(@"%i",answer);
 }
 
 @end

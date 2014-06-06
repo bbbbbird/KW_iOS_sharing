@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041CC53E193C52690077E37F /* BBViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 041CC53D193C52690077E37F /* BBViewController2.m */; };
+		041CC544193C52FB0077E37F /* SimpleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 041CC543193C52FB0077E37F /* SimpleObject.m */; };
 		0434AFBA1932F330003810B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0434AFB91932F330003810B7 /* Foundation.framework */; };
 		0434AFBC1932F330003810B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0434AFBB1932F330003810B7 /* CoreGraphics.framework */; };
 		0434AFBE1932F330003810B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0434AFBD1932F330003810B7 /* UIKit.framework */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041CC53C193C52690077E37F /* BBViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBViewController2.h; sourceTree = "<group>"; };
+		041CC53D193C52690077E37F /* BBViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBViewController2.m; sourceTree = "<group>"; };
+		041CC542193C52FB0077E37F /* SimpleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleObject.h; sourceTree = "<group>"; };
+		041CC543193C52FB0077E37F /* SimpleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleObject.m; sourceTree = "<group>"; };
 		0434AFB61932F330003810B7 /* Demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0434AFB91932F330003810B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0434AFBB1932F330003810B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,8 +126,12 @@
 				0434AFCE1932F330003810B7 /* Main_iPad.storyboard */,
 				0434AFD11932F330003810B7 /* BBViewController.h */,
 				0434AFD21932F330003810B7 /* BBViewController.m */,
+				041CC53C193C52690077E37F /* BBViewController2.h */,
+				041CC53D193C52690077E37F /* BBViewController2.m */,
 				0434AFD41932F330003810B7 /* Images.xcassets */,
 				0434AFC01932F330003810B7 /* Supporting Files */,
+				041CC542193C52FB0077E37F /* SimpleObject.h */,
+				041CC543193C52FB0077E37F /* SimpleObject.m */,
 			);
 			path = Demo1;
 			sourceTree = "<group>";
@@ -254,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041CC544193C52FB0077E37F /* SimpleObject.m in Sources */,
 				0434AFD31932F330003810B7 /* BBViewController.m in Sources */,
 				0434AFCA1932F330003810B7 /* BBAppDelegate.m in Sources */,
 				0434AFC61932F330003810B7 /* main.m in Sources */,
+				041CC53E193C52690077E37F /* BBViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +483,7 @@
 				0434AFED1932F330003810B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0434AFEE1932F330003810B7 /* Build configuration list for PBXNativeTarget "Demo1Tests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +492,7 @@
 				0434AFF01932F330003810B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
