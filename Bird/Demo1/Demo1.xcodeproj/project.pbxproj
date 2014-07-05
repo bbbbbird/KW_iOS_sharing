@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		041CC53E193C52690077E37F /* BBViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 041CC53D193C52690077E37F /* BBViewController2.m */; };
 		041CC544193C52FB0077E37F /* SimpleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 041CC543193C52FB0077E37F /* SimpleObject.m */; };
+		042585AF1967D2BA005AF7BA /* SimpleClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 042585AE1967D2BA005AF7BA /* SimpleClass.m */; };
+		042585B11967E0AD005AF7BA /* Download_on_the_App_Store_Badge_HK_TW_135x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 042585B01967E0AD005AF7BA /* Download_on_the_App_Store_Badge_HK_TW_135x40.png */; };
+		042585B31967F376005AF7BA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042585B21967F376005AF7BA /* MapKit.framework */; };
 		0434AFBA1932F330003810B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0434AFB91932F330003810B7 /* Foundation.framework */; };
 		0434AFBC1932F330003810B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0434AFBB1932F330003810B7 /* CoreGraphics.framework */; };
 		0434AFBE1932F330003810B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0434AFBD1932F330003810B7 /* UIKit.framework */; };
@@ -41,6 +44,10 @@
 		041CC53D193C52690077E37F /* BBViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBViewController2.m; sourceTree = "<group>"; };
 		041CC542193C52FB0077E37F /* SimpleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleObject.h; sourceTree = "<group>"; };
 		041CC543193C52FB0077E37F /* SimpleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleObject.m; sourceTree = "<group>"; };
+		042585AD1967D2BA005AF7BA /* SimpleClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleClass.h; sourceTree = "<group>"; };
+		042585AE1967D2BA005AF7BA /* SimpleClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleClass.m; sourceTree = "<group>"; };
+		042585B01967E0AD005AF7BA /* Download_on_the_App_Store_Badge_HK_TW_135x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Download_on_the_App_Store_Badge_HK_TW_135x40.png; sourceTree = "<group>"; };
+		042585B21967F376005AF7BA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		0434AFB61932F330003810B7 /* Demo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0434AFB91932F330003810B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0434AFBB1932F330003810B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -68,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042585B31967F376005AF7BA /* MapKit.framework in Frameworks */,
 				0434AFBC1932F330003810B7 /* CoreGraphics.framework in Frameworks */,
 				0434AFBE1932F330003810B7 /* UIKit.framework in Frameworks */,
 				0434AFBA1932F330003810B7 /* Foundation.framework in Frameworks */,
@@ -109,6 +117,7 @@
 		0434AFB81932F330003810B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				042585B21967F376005AF7BA /* MapKit.framework */,
 				0434AFB91932F330003810B7 /* Foundation.framework */,
 				0434AFBB1932F330003810B7 /* CoreGraphics.framework */,
 				0434AFBD1932F330003810B7 /* UIKit.framework */,
@@ -120,6 +129,9 @@
 		0434AFBF1932F330003810B7 /* Demo1 */ = {
 			isa = PBXGroup;
 			children = (
+				042585B01967E0AD005AF7BA /* Download_on_the_App_Store_Badge_HK_TW_135x40.png */,
+				042585AD1967D2BA005AF7BA /* SimpleClass.h */,
+				042585AE1967D2BA005AF7BA /* SimpleClass.m */,
 				0434AFC81932F330003810B7 /* BBAppDelegate.h */,
 				0434AFC91932F330003810B7 /* BBAppDelegate.m */,
 				0434AFCB1932F330003810B7 /* Main_iPhone.storyboard */,
@@ -128,10 +140,10 @@
 				0434AFD21932F330003810B7 /* BBViewController.m */,
 				041CC53C193C52690077E37F /* BBViewController2.h */,
 				041CC53D193C52690077E37F /* BBViewController2.m */,
-				0434AFD41932F330003810B7 /* Images.xcassets */,
-				0434AFC01932F330003810B7 /* Supporting Files */,
 				041CC542193C52FB0077E37F /* SimpleObject.h */,
 				041CC543193C52FB0077E37F /* SimpleObject.m */,
+				0434AFD41932F330003810B7 /* Images.xcassets */,
+				0434AFC01932F330003810B7 /* Supporting Files */,
 			);
 			path = Demo1;
 			sourceTree = "<group>";
@@ -243,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0434AFD01932F330003810B7 /* Main_iPad.storyboard in Resources */,
+				042585B11967E0AD005AF7BA /* Download_on_the_App_Store_Badge_HK_TW_135x40.png in Resources */,
 				0434AFD51932F330003810B7 /* Images.xcassets in Resources */,
 				0434AFCD1932F330003810B7 /* Main_iPhone.storyboard in Resources */,
 				0434AFC41932F330003810B7 /* InfoPlist.strings in Resources */,
@@ -266,6 +279,7 @@
 			files = (
 				041CC544193C52FB0077E37F /* SimpleObject.m in Sources */,
 				0434AFD31932F330003810B7 /* BBViewController.m in Sources */,
+				042585AF1967D2BA005AF7BA /* SimpleClass.m in Sources */,
 				0434AFCA1932F330003810B7 /* BBAppDelegate.m in Sources */,
 				0434AFC61932F330003810B7 /* main.m in Sources */,
 				041CC53E193C52690077E37F /* BBViewController2.m in Sources */,

@@ -7,7 +7,7 @@
 //
 
 #import "BBViewController2.h"
-
+#import "BBViewController.h"
 @interface BBViewController2 ()
 
 @end
@@ -19,6 +19,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
 }
 
 - (void)didReceiveMemoryWarning

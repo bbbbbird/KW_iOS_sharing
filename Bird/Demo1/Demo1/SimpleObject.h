@@ -9,5 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface SimpleObject : NSObject
+{
+    int b;
+}
+@property int a;
+@property (nonatomic,strong) NSObject *obj;
 - (int)getSumX:(int)x andY:(int)y;
+- (double)countPlusFrom:(int)fromNum to:(int)toNum;
++ (int)count10Plus10;
 @end
