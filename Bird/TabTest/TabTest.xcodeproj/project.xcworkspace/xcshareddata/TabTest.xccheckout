@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A95C9566-646F-425A-A043-6596671371C8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TabTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>86925928-85B0-4026-82E4-5BF6AF5359BA</key>
+		<string>https://github.com/bbbbbird/KW_iOS_sharing.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Bird/TabTest/TabTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>86925928-85B0-4026-82E4-5BF6AF5359BA</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/bbbbbird/KW_iOS_sharing.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>86925928-85B0-4026-82E4-5BF6AF5359BA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>86925928-85B0-4026-82E4-5BF6AF5359BA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS_sharing</string>
+		</dict>
+	</array>
+</dict>
+</plist>
