@@ -10,7 +10,7 @@
 
 @interface BBViewController ()
 {
-    
+    NSMutableArray *arr;
 }
 @end
 
@@ -19,9 +19,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    arr = [NSMutableArray arrayWithObjects:@"1",@"2",@"3",@"4",@"5", nil];
 }
-
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -40,11 +42,14 @@
     NSThread *thread1 = [[NSThread alloc]initWithTarget:self selector:@selector(logTruth) object:nil];
     NSThread *thread2 = [[NSThread alloc]initWithTarget:self selector:@selector(logTruth2) object:nil];
     
-    [thread1 setThreadPriority:1.0];
-    [thread2 setThreadPriority:0.0];
+        [thread1 setThreadPriority:1.0];
+        [thread2 setThreadPriority:0.0];
+    
     
     [thread1 start];
     [thread2 start];
+    
+    
 }
 - (void)logTruth{
     for (int i = 0; i < 10000 ; i++) {
@@ -55,6 +60,40 @@
     for (int i = 0; i < 10000 ; i++) {
         NSLog(@"真的");
     }
+}
+- (IBAction)threadSafeDemo:(id)sender {
+    NSThread *thread1 = [[NSThread alloc]initWithTarget:self selector:@selector(method1) object:nil];
+    NSThread *thread2 = [[NSThread alloc]initWithTarget:self selector:@selector(method2) object:nil];
+    [thread1 start];
+    [thread2 start];
+}
+
+- (void)method1{
+    @synchronized(self){
+        for (int i = 0; i < 1000; i++) {
+            [arr addObject:@"9"];
+        }
+        NSLog(@"%@",arr);
+    }
+}
+- (void)method2{
+    @synchronized(self){
+        for (int i = 0; i < 1000; i++) {
+            [arr removeLastObject];
+        }
+        NSLog(@"method2 \n%@",arr);
+    }
+}
+
+
+
+- (void)thread1Method{
+    for (int i = 0; i < 1000; i++) {
+        [arr replaceObjectAtIndex:0 withObject:@"a"];
+    }
+}
+- (void)thread2Method{
+    [arr replaceObjectAtIndex:0 withObject:@"z"];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{

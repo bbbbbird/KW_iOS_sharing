@@ -38,7 +38,8 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil];
-    [cell.textLabel setText:@"123"];
+    int cellIndex = (int)[indexPath row];
+    [cell.textLabel setText:[NSString stringWithFormat:@"第%i個cell",++cellIndex]];
     return cell;
 }
 @end
