@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0477E8EB19887A730048D9E8 /* BBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E8EA19887A730048D9E8 /* BBTableViewCell.m */; };
+		0477E908198A5FE70048D9E8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E907198A5FE70048D9E8 /* MBProgressHUD.m */; };
+		0477E911198B1A6C0048D9E8 /* BBDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E910198B1A6C0048D9E8 /* BBDataParser.m */; };
+		0477E914198B1A850048D9E8 /* BBDataObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E913198B1A850048D9E8 /* BBDataObject.m */; };
+		0477E917198B2E730048D9E8 /* BBDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E916198B2E730048D9E8 /* BBDetailViewController.m */; };
+		0477E91D198B5C160048D9E8 /* BBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E91C198B5C160048D9E8 /* BBImageView.m */; };
 		04ECAFFB1978AA4800D0BD2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ECAFFA1978AA4800D0BD2D /* Foundation.framework */; };
 		04ECAFFD1978AA4800D0BD2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ECAFFC1978AA4800D0BD2D /* CoreGraphics.framework */; };
 		04ECAFFF1978AA4800D0BD2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ECAFFE1978AA4800D0BD2D /* UIKit.framework */; };
@@ -34,6 +40,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0477E8E919887A730048D9E8 /* BBTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBTableViewCell.h; sourceTree = "<group>"; };
+		0477E8EA19887A730048D9E8 /* BBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBTableViewCell.m; sourceTree = "<group>"; };
+		0477E906198A5FE70048D9E8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		0477E907198A5FE70048D9E8 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		0477E90F198B1A6C0048D9E8 /* BBDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDataParser.h; sourceTree = "<group>"; };
+		0477E910198B1A6C0048D9E8 /* BBDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDataParser.m; sourceTree = "<group>"; };
+		0477E912198B1A850048D9E8 /* BBDataObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDataObject.h; sourceTree = "<group>"; };
+		0477E913198B1A850048D9E8 /* BBDataObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDataObject.m; sourceTree = "<group>"; };
+		0477E915198B2E730048D9E8 /* BBDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBDetailViewController.h; sourceTree = "<group>"; };
+		0477E916198B2E730048D9E8 /* BBDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBDetailViewController.m; sourceTree = "<group>"; };
+		0477E91B198B5C160048D9E8 /* BBImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBImageView.h; sourceTree = "<group>"; };
+		0477E91C198B5C160048D9E8 /* BBImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBImageView.m; sourceTree = "<group>"; };
 		04ECAFF71978AA4800D0BD2D /* TableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04ECAFFA1978AA4800D0BD2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		04ECAFFC1978AA4800D0BD2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,9 +97,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0477E905198A5FD60048D9E8 /* MBProgressHud */ = {
+			isa = PBXGroup;
+			children = (
+				0477E906198A5FE70048D9E8 /* MBProgressHUD.h */,
+				0477E907198A5FE70048D9E8 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHud;
+			sourceTree = "<group>";
+		};
 		04ECAFEE1978AA4800D0BD2D = {
 			isa = PBXGroup;
 			children = (
+				0477E8E919887A730048D9E8 /* BBTableViewCell.h */,
+				0477E8EA19887A730048D9E8 /* BBTableViewCell.m */,
+				0477E91B198B5C160048D9E8 /* BBImageView.h */,
+				0477E91C198B5C160048D9E8 /* BBImageView.m */,
+				0477E912198B1A850048D9E8 /* BBDataObject.h */,
+				0477E913198B1A850048D9E8 /* BBDataObject.m */,
+				0477E90F198B1A6C0048D9E8 /* BBDataParser.h */,
+				0477E910198B1A6C0048D9E8 /* BBDataParser.m */,
+				0477E905198A5FD60048D9E8 /* MBProgressHud */,
 				04ECB0001978AA4800D0BD2D /* TableViewDemo */,
 				04ECB01F1978AA4900D0BD2D /* TableViewDemoTests */,
 				04ECAFF91978AA4800D0BD2D /* Frameworks */,
@@ -117,6 +153,8 @@
 				04ECB00C1978AA4900D0BD2D /* Main.storyboard */,
 				04ECB00F1978AA4900D0BD2D /* BBViewController.h */,
 				04ECB0101978AA4900D0BD2D /* BBViewController.m */,
+				0477E915198B2E730048D9E8 /* BBDetailViewController.h */,
+				0477E916198B2E730048D9E8 /* BBDetailViewController.m */,
 				04ECB0121978AA4900D0BD2D /* Images.xcassets */,
 				04ECB0011978AA4800D0BD2D /* Supporting Files */,
 			);
@@ -251,8 +289,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				04ECB0111978AA4900D0BD2D /* BBViewController.m in Sources */,
+				0477E917198B2E730048D9E8 /* BBDetailViewController.m in Sources */,
 				04ECB00B1978AA4900D0BD2D /* BBAppDelegate.m in Sources */,
 				04ECB0071978AA4900D0BD2D /* main.m in Sources */,
+				0477E8EB19887A730048D9E8 /* BBTableViewCell.m in Sources */,
+				0477E91D198B5C160048D9E8 /* BBImageView.m in Sources */,
+				0477E911198B1A6C0048D9E8 /* BBDataParser.m in Sources */,
+				0477E914198B1A850048D9E8 /* BBDataObject.m in Sources */,
+				0477E908198A5FE70048D9E8 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +501,7 @@
 				04ECB02B1978AA4900D0BD2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04ECB02C1978AA4900D0BD2D /* Build configuration list for PBXNativeTarget "TableViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +510,7 @@
 				04ECB02E1978AA4900D0BD2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

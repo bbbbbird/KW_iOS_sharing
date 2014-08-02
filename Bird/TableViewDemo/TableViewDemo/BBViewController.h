@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface BBViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+#import "MBProgressHUD.h"
+@interface BBViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,MBProgressHUDDelegate>
 
 @end

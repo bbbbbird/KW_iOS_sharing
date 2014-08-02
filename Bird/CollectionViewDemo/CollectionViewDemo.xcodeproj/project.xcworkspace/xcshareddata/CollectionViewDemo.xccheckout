@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3167300B-26E7-4C31-A49C-DF15FD8AD667</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CollectionViewDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>687DD4EC-9737-4F0C-9D74-167EA198655C</key>
+		<string>https://github.com/bbbbbird/KW_iOS_sharing.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Bird/CollectionViewDemo/CollectionViewDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>687DD4EC-9737-4F0C-9D74-167EA198655C</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/bbbbbird/KW_iOS_sharing.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>687DD4EC-9737-4F0C-9D74-167EA198655C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>687DD4EC-9737-4F0C-9D74-167EA198655C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS_sharing</string>
+		</dict>
+	</array>
+</dict>
+</plist>
