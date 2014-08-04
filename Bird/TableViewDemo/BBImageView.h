@@ -13,7 +13,7 @@
 #import <UIKit/UIKit.h>
 
 @interface BBImageView : UIImageView<NSURLConnectionDelegate>
-- (void)setImageWithUrl:(NSURL*)targetUrl;
+- (void)setImageWithUrl:(NSURL*)targetUrl catch:(BOOL)shouldCatch;
 - (void)stopLoadingImage;
 @property (nonatomic,weak)id<BBImageViewDelegate>delegate;
 @end

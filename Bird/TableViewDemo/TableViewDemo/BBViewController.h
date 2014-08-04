@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "MBProgressHUD.h"
-@interface BBViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,MBProgressHUDDelegate>
+#import "BirdTableViewDelegateObject.h"
+#import "BBParentViewController.h"
+@interface BBViewController : BBParentViewController<BirdTableViewDelegate>
 
 @end

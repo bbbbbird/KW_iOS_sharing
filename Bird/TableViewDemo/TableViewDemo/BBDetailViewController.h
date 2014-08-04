@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "BBDataObject.h"
-@interface BBDetailViewController : UIViewController<UIWebViewDelegate>
+#import "BBParentViewController.h"
+@interface BBDetailViewController : BBParentViewController<UIWebViewDelegate>
 @property (nonatomic,strong) BBDataObject *data;
 @end

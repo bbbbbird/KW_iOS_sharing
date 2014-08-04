@@ -30,7 +30,9 @@
 - (IBAction)URLCOnnection:(id)sender {
     //最簡單的方法
     NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:NEWS_URL]];
+    
     NSString *feedBackString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    
     NSLog(@"%@",feedBackString);
 }
 - (IBAction)urlRequest:(id)sender {

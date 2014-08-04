@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04293CF9198F3B3400B879FE /* BirdTableViewDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 04293CF8198F3B3400B879FE /* BirdTableViewDelegateObject.m */; };
+		04293CFC198F3EF000B879FE /* BBParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04293CFB198F3EF000B879FE /* BBParentViewController.m */; };
+		04293D02198F599100B879FE /* BBCatchFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04293D01198F599100B879FE /* BBCatchFileController.m */; };
 		0477E8EB19887A730048D9E8 /* BBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E8EA19887A730048D9E8 /* BBTableViewCell.m */; };
 		0477E908198A5FE70048D9E8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E907198A5FE70048D9E8 /* MBProgressHUD.m */; };
 		0477E911198B1A6C0048D9E8 /* BBDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E910198B1A6C0048D9E8 /* BBDataParser.m */; };
@@ -40,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04293CF7198F3B3400B879FE /* BirdTableViewDelegateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BirdTableViewDelegateObject.h; sourceTree = "<group>"; };
+		04293CF8198F3B3400B879FE /* BirdTableViewDelegateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BirdTableViewDelegateObject.m; sourceTree = "<group>"; };
+		04293CFA198F3EF000B879FE /* BBParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBParentViewController.h; sourceTree = "<group>"; };
+		04293CFB198F3EF000B879FE /* BBParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBParentViewController.m; sourceTree = "<group>"; };
+		04293D00198F599100B879FE /* BBCatchFileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCatchFileController.h; sourceTree = "<group>"; };
+		04293D01198F599100B879FE /* BBCatchFileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCatchFileController.m; sourceTree = "<group>"; };
 		0477E8E919887A730048D9E8 /* BBTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBTableViewCell.h; sourceTree = "<group>"; };
 		0477E8EA19887A730048D9E8 /* BBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBTableViewCell.m; sourceTree = "<group>"; };
 		0477E906198A5FE70048D9E8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
@@ -109,6 +118,10 @@
 		04ECAFEE1978AA4800D0BD2D = {
 			isa = PBXGroup;
 			children = (
+				04293D00198F599100B879FE /* BBCatchFileController.h */,
+				04293D01198F599100B879FE /* BBCatchFileController.m */,
+				04293CF7198F3B3400B879FE /* BirdTableViewDelegateObject.h */,
+				04293CF8198F3B3400B879FE /* BirdTableViewDelegateObject.m */,
 				0477E8E919887A730048D9E8 /* BBTableViewCell.h */,
 				0477E8EA19887A730048D9E8 /* BBTableViewCell.m */,
 				0477E91B198B5C160048D9E8 /* BBImageView.h */,
@@ -155,6 +168,8 @@
 				04ECB0101978AA4900D0BD2D /* BBViewController.m */,
 				0477E915198B2E730048D9E8 /* BBDetailViewController.h */,
 				0477E916198B2E730048D9E8 /* BBDetailViewController.m */,
+				04293CFA198F3EF000B879FE /* BBParentViewController.h */,
+				04293CFB198F3EF000B879FE /* BBParentViewController.m */,
 				04ECB0121978AA4900D0BD2D /* Images.xcassets */,
 				04ECB0011978AA4800D0BD2D /* Supporting Files */,
 			);
@@ -289,13 +304,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				04ECB0111978AA4900D0BD2D /* BBViewController.m in Sources */,
+				04293D02198F599100B879FE /* BBCatchFileController.m in Sources */,
 				0477E917198B2E730048D9E8 /* BBDetailViewController.m in Sources */,
 				04ECB00B1978AA4900D0BD2D /* BBAppDelegate.m in Sources */,
 				04ECB0071978AA4900D0BD2D /* main.m in Sources */,
+				04293CFC198F3EF000B879FE /* BBParentViewController.m in Sources */,
 				0477E8EB19887A730048D9E8 /* BBTableViewCell.m in Sources */,
 				0477E91D198B5C160048D9E8 /* BBImageView.m in Sources */,
 				0477E911198B1A6C0048D9E8 /* BBDataParser.m in Sources */,
 				0477E914198B1A850048D9E8 /* BBDataObject.m in Sources */,
+				04293CF9198F3B3400B879FE /* BirdTableViewDelegateObject.m in Sources */,
 				0477E908198A5FE70048D9E8 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

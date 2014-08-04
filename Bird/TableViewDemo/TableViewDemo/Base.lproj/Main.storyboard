@@ -125,17 +125,11 @@
                                     <outlet property="delegate" destination="4AT-Yh-5Im" id="uBa-Gb-HvX"/>
                                 </connections>
                             </webView>
-                            <activityIndicatorView opaque="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" id="l24-VS-UyF">
-                                <rect key="frame" x="142" y="265" width="37" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <color key="color" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Detail" id="z93-FZ-hL8"/>
                     <connections>
-                        <outlet property="flower" destination="l24-VS-UyF" id="u4Q-Pd-ch5"/>
                         <outlet property="m_webView" destination="7AK-q9-wIy" id="mLG-hq-fb2"/>
                     </connections>
                 </viewController>

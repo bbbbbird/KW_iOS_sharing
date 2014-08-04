@@ -18,7 +18,7 @@
     [flower startAnimating];
     [flower setAlpha:1.0];
     _targetImageView.delegate = self;
-    [_targetImageView setImageWithUrl:[NSURL URLWithString:dataItem.imgUrl]];
+    [_targetImageView setImageWithUrl:[NSURL URLWithString:dataItem.imgUrl] catch:YES];
     [_targetContent setText:dataItem.content];
     [_targetTitle setText:dataItem.name];
 }
