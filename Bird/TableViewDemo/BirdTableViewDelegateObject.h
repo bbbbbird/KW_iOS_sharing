@@ -6,6 +6,7 @@
 //  Copyright (c) 2014年 iOSTeam. All rights reserved.
 //
 #import "BBDataObject.h"
+#import "Reachability.h"
 @protocol BirdTableViewDelegate <NSObject>
 @optional
 - (void)shouldReloadData;
@@ -14,6 +15,9 @@
 #import <Foundation/Foundation.h>
 
 @interface BirdTableViewDelegateObject : NSObject<UITableViewDataSource,UITableViewDelegate>
+{
+    Reachability *reachability;
+}
 @property (nonatomic,strong) NSMutableArray *dataArray;
 @property (nonatomic,weak) id<BirdTableViewDelegate> delegate;
 @end

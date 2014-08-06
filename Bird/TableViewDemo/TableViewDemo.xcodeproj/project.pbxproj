@@ -10,6 +10,7 @@
 		04293CF9198F3B3400B879FE /* BirdTableViewDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 04293CF8198F3B3400B879FE /* BirdTableViewDelegateObject.m */; };
 		04293CFC198F3EF000B879FE /* BBParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04293CFB198F3EF000B879FE /* BBParentViewController.m */; };
 		04293D02198F599100B879FE /* BBCatchFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04293D01198F599100B879FE /* BBCatchFileController.m */; };
+		042FE44D198F983A00160898 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 042FE44C198F983A00160898 /* Reachability.m */; };
 		0477E8EB19887A730048D9E8 /* BBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E8EA19887A730048D9E8 /* BBTableViewCell.m */; };
 		0477E908198A5FE70048D9E8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E907198A5FE70048D9E8 /* MBProgressHUD.m */; };
 		0477E911198B1A6C0048D9E8 /* BBDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0477E910198B1A6C0048D9E8 /* BBDataParser.m */; };
@@ -49,6 +50,8 @@
 		04293CFB198F3EF000B879FE /* BBParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBParentViewController.m; sourceTree = "<group>"; };
 		04293D00198F599100B879FE /* BBCatchFileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBCatchFileController.h; sourceTree = "<group>"; };
 		04293D01198F599100B879FE /* BBCatchFileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCatchFileController.m; sourceTree = "<group>"; };
+		042FE44B198F983A00160898 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		042FE44C198F983A00160898 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		0477E8E919887A730048D9E8 /* BBTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBTableViewCell.h; sourceTree = "<group>"; };
 		0477E8EA19887A730048D9E8 /* BBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBTableViewCell.m; sourceTree = "<group>"; };
 		0477E906198A5FE70048D9E8 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
@@ -106,6 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042FE44A198F982900160898 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				042FE44B198F983A00160898 /* Reachability.h */,
+				042FE44C198F983A00160898 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
 		0477E905198A5FD60048D9E8 /* MBProgressHud */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +130,7 @@
 		04ECAFEE1978AA4800D0BD2D = {
 			isa = PBXGroup;
 			children = (
+				042FE44A198F982900160898 /* Reachability */,
 				04293D00198F599100B879FE /* BBCatchFileController.h */,
 				04293D01198F599100B879FE /* BBCatchFileController.m */,
 				04293CF7198F3B3400B879FE /* BirdTableViewDelegateObject.h */,
@@ -303,6 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042FE44D198F983A00160898 /* Reachability.m in Sources */,
 				04ECB0111978AA4900D0BD2D /* BBViewController.m in Sources */,
 				04293D02198F599100B879FE /* BBCatchFileController.m in Sources */,
 				0477E917198B2E730048D9E8 /* BBDetailViewController.m in Sources */,

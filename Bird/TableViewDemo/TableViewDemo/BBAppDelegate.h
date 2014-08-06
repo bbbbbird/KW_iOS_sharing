@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Reachability.h"
 @interface BBAppDelegate : UIResponder <UIApplicationDelegate>
-
+{
+    Reachability *reachability;
+}
 @property (strong, nonatomic) UIWindow *window;
 
 @end
